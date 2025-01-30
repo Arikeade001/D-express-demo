@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.headerhero {
+    background-image: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.btn {
+    background-color: #1BC768;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    text-align: left;
+    border: none;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #ffffff;
+    color: #1BC768;
+}
+
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.textside h1 {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 65.57px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.textside p {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+    color: #ffffff;
+    width: 80%;
+    padding: 2rem 0;
+}
+
+.imageside img {
+    width: 100%;
+}
+
+.textside {
+    width: 50%;
+}
+
+.heroBtn button {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    width: 20%;
+    text-align: left;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin-right: 1rem;
+}
+
+.heroBtn button:hover {
+    background-color: #FFFFFF;
+    color: #043CAA;
+}
+
+.heroinput input {
+    width: 60%;
+    padding: 0.5rem;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid #FFFFFF;
+}
+
+.heroinput button {
+    width: 20%;
+    padding: 0.5rem;
+    background-color: #1BC768;
+    color: #ffffff;
+    border: 2px solid #1BC768;
+    margin-left: -5px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.thirdsection {
+    text-align: center;
+    padding-top: 6rem;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 49.18px;
+    color: #043CAA;
+}
+
+.thirdsection2 {
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.third img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.affliations {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.topAffilita h3 {
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 49.18px;
+    text-align: left;
+    color: #043CAA;
+}
+
+.affiliteLines {
+    display: flex;
+    justify-content: center;
+}
+
+.line1 {
+    width: 9%;
+    height: 5px;
+    background-color: #043CAA;
+    border: 1px solid #043CAA;
+    border-radius: 50px 0 0 50px;
+
+}
+
+.line2 {
+    width: 9%;
+    height: 5px;
+    background-color: #1BC768;
+    border: 1px solid #1BC768;
+    border-radius: 0 50px 50px 0;
+}
+
+.affiliate {
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.keyBenefits {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.topBenefits h3 {
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 49.18px;
+    color: #043CAA;
+}
+
+.BenefitsLines {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.sectiontitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectiontext h4 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    text-align: left;
+    color: #043CAA;
+    padding-bottom: 1.5rem;
+    width: 60%;
+}
+
+.sectiontext ul {
+    list-style-image: url(images/bullet.png);
+    list-style-position: inside;
+}
+
+.sectiontext li {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 32.78px;
+    text-align: left;
+    color: #333333;
+    padding-bottom: 1rem;
+}
+
+.sectiontext Button {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    text-align: left;
+    background-color: none;
+    color: #1BC768;
+    border: 1px solid #1BC768;
+    padding: 0.5rem 2rem;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+.sectionBtn i {
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+}
+
+.sectionBtn button:hover {
+    background-color: #ffffff;
+    color: #1BC768;
+}
+
+.sectionbody {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: left;
+    margin: 0 auto;
+}
+
+.medicinesection h3 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    text-align: left;
+    color: #043CAA;
+    padding-bottom: 1.5rem;
+}
+
+.medicinesection ul {
+    list-style-image: url(images/bullet.png);
+    list-style-position: inside;
+}
+
+.medicinesection li {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+    color: #333333;
+    padding-bottom: 1rem;
+}
+
+.medicinesection button {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #1BC768;
+    border-color: #1BC768;
+    padding: 0.5rem 1rem;
+    border-radius: 90px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.bodyBtn i {
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: left;
+    margin: 0 auto;
+}
+
+.firstsection1 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.firstsection h3 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    text-align: left;
+    color: #043CAA;
+    padding-bottom: 2rem;
+}
+
+.firstsection ul {
+    list-style-image: url(images/bullet.png);
+    list-style-position: inside;
+}
+
+.firstsection li {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+    color: #333333;
+    padding-bottom: 1rem;
+}
+
+.firstsection Button {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #1BC768;
+    border-color: #1BC768;
+    padding: 0.5rem 1rem;
+    border-radius: 90px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.firstBtn i {
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+}
+
+.secondsection {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* gap: 10%; */
+}
+
+.second {
+    /* width:80%; */
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.topSecond h2 {
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 49.18px;
+    text-align: center;
+    color: #043CAA;
+}
+
+.second p {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: #7A7A7A;
+    padding-top: 2rem;
+
+}
+
+.secondLines {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.second h6 {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: #043CAA;
+}
+
+footer {
+    background-color: #043CAA;
+    padding: 4rem 0 1rem;
+}
+
+.footerwrap {
+    width: 80%;
+    margin: auto;
+}
+
+.newsLetter {
+    display: flex;
+    margin-bottom: 8rem;
+    gap: 15rem;
+}
+
+.signUp {
+    width: 35%;
+}
+
+.email {
+    width: 35%;
+}
+
+.signUp h3 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32.78px;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+.signUp p {
+    font-family: Lato;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+}
+
+.email label {
+    margin-bottom: 1rem;
+    font-family: Lato;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+}
+
+.email input {
+    width: 70%;
+    padding: 1rem 0.5rem;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid #FFFFFF;
+}
+
+.email button {
+    width: 30%;
+    padding: 1rem 0.5rem;
+    background-color: #1BC768;
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+    margin-left: -5px;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    margin-top: 1rem;
+}
+
+.footlinks {
+    display: flex;
+    gap: 15rem;
+}
+
+.footright {
+    display: flex;
+    gap: 6rem;
+}
+
+.footleft p {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: #ffffff;
+    padding-top: 1rem;
+}
+
+.quickLinks h5 {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24.59px;
+    color: #ffffff;
+    padding-bottom: 1.5rem;
+
+}
+
+.quickLinks p {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24.59px;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.59px;
+    padding-top: 4rem;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .textside {
+        width: 55%;
+    }
+
+    .textside p {
+        width: 100%;
+    }
+
+    .heroinput input {
+        width: 80%;
+
+    }
+
+    .medicine image img {
+        width: 100%;
+    }
+
+    .secondsection img {
+        width: 90%;
+    }
+
+    .table image img {
+        width: 100%;
+    }
+
+    .scope image img {
+        width: 100%;
+    }
+
+    .second {
+        width: 40%;
+    }
+
+    .topSecond h2 {
+        font-size: 33px;
+    }
+
+    .email label {
+        font-size: 14px;
+
+    }
+
+    .signUp {
+        width: 55%;
+    }
+
+    .email {
+        width: 40%;
+    }
+
+    .newsLetter {
+        gap: 10rem;
+    }
+
+    .footright {
+        width: 70%;
+        gap: 4rem;
+    }
+
+    .footleft {
+        width: 30%
+    }
+
+    .footlinks {
+        gap: 8rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .textside h1 {
+        font-size: 38px;
+        line-height: 65.57px;
+    }
+
+    .textside p {
+        font-size: 15px;
+        width: 95%;
+
+    }
+
+    .heroinput button {
+        width: 25%;
+    }
+
+    .heroBtn button {
+        font-size: 16px;
+        margin-right: 0.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .heroinput input {
+        width: 65%;
+    }
+
+    .textside {
+        width: 65%;
+    }
+
+    .imageside {
+        width: 40%;
+    }
+
+    .herobtn button {
+        font-size: 16px;
+        padding: 0.5rem 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .sectiontext h4 {
+        width: 80%;
+    }
+
+    .sectiontext li {
+        font-size: 13px;
+    }
+
+    .firstsection li {
+        font-size: 13px;
+    }
+
+    .firstsection h3 {
+        width: 80%;
+    }
+
+    .topSecond h2 {
+        font-size: 25px;
+    }
+
+    .second p {
+        font-size: 13px;
+    }
+
+    .second h6 {
+        font-size: 13px;
+    }
+
+    .signUp {
+        width: 75%;
+    }
+
+    .email {
+        width: 60%;
+    }
+
+    .signUp h3 {
+
+        font-size: 18px;
+
+    }
+
+    .signUp p {
+        font-size: 14px;
+
+    }
+
+    .newsLetter {
+        gap: 5rem;
+    }
+
+    .footleft p {
+        font-size: 13px;
+    }
+
+    .quickLinks h5 {
+        font-size: 14px;
+    }
+
+    .quickLinks p {
+        font-size: 15px;
+    }
+
+    .footright {
+        width: 70%;
+        gap: 2rem;
+    }
+
+    .footleft {
+        width: 30%
+    }
+
+    .footlinks {
+        gap: 8rem;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+}
